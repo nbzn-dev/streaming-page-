@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=SUSE:wght@600&display=swap');
+
+*{
+    font-family: "SUSE", sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+}
+    body{
+        background-color: black;
+}
+
+div.navbar i{
+    justify-content: space-between ;
+}
+#menu{
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ul{
+    display: flex;
+}
+
+#menu li{
+    display: inline;
+}
+
+#menu li a{
+    display: inline;
+    padding: 2vw;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 0px;
+    padding: 10px 0vw 0px 5vw;
+}
+.img{
+    display: flex;
+    float: left;
+    margin: 0px 0px 0px;
+    padding: 10px 10vw 0px 5vw;
+}
+
+.bio{
+    float: inline-end;
+    align-self: flex-end;
+}
